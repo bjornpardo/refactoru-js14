@@ -6,8 +6,9 @@ $(document).on('ready', function() {
 
 	$('.container').on('click', function(e) {
 		
-		$(this).append(marker);
 		var marker = $('<div class="marker"></div>');
+		$(this).append(marker);
+		
 
 		var x = e.pageX;
 		var y = e.pageY;
